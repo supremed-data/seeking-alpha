@@ -1,0 +1,15 @@
+[project]
+name = "seeking-alpha"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "yfinance>=1.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "matplotlib>=3.10.8",
+    "notebook>=7.5.3",
+]
